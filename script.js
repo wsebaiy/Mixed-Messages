@@ -21,3 +21,8 @@ const arr3 = [
     "get more friends",
     "do not give up",
 ];
+let first = arr1[Math.floor(Math.random() * arr1.length)];
+
+let second = arr2[Math.floor(Math.random() * arr2.length)];
+let third = arr3[Math.floor(Math.random() * arr3.length)];
+console.log(first, second, third);
